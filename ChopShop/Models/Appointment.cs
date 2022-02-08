@@ -7,14 +7,13 @@ namespace ChopShop.Models
   {
     public string Name { get; set; }
     public string Time { get; set; }
-    // public string Service { get; set; }
+    public string Service { get; set; }
 
-    // public Appointment(string Name, string Time, string Service)
-    public Appointment(string name, string time)
+    public Appointment(string name, string time, string service)
     {
       Name = name;
       Time = time;
-      // Service = service;
+      Service = service;
     }
   }
 }

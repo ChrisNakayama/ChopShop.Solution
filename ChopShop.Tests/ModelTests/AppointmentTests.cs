@@ -11,7 +11,7 @@ namespace ChopShop.Tests
     [TestMethod]
     public void CheckIfAppointmentExists() 
     {
-      Appointment testAppointment = new Appointment("name", "time");
+      Appointment testAppointment = new Appointment("name", "time", "service");
       Assert.AreEqual(typeof(Appointment), testAppointment.GetType());
     }
 
@@ -19,7 +19,7 @@ namespace ChopShop.Tests
     public void CheckAppointmentName() 
     {
       string name = "Test Name";
-      Appointment testAppointment = new Appointment(name, "time");
+      Appointment testAppointment = new Appointment(name, "time", "service");
       Assert.AreEqual(testAppointment.Name, name);
     }
 
@@ -27,8 +27,16 @@ namespace ChopShop.Tests
     public void CheckAppointmentTime() 
     {
       string time = "Test Time";
-      Appointment testAppointment = new Appointment("name", time);
+      Appointment testAppointment = new Appointment("name", time, "service");
       Assert.AreEqual(testAppointment.Time, time);
+    }
+
+    [TestMethod]
+    public void CheckAppointmentService() 
+    {
+      string service = "Test Service";
+      Appointment testAppointment = new Appointment("name", "time", service);
+      Assert.AreEqual(testAppointment.Service, service);
     }
   }
 }
