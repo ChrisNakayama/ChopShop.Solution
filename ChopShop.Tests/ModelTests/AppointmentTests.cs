@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ChopShop;
+using System.Collections.Generic;
+using ChopShop.Models;
+using System;
 
 namespace ChopShop.Tests
 {
@@ -9,28 +11,24 @@ namespace ChopShop.Tests
     [TestMethod]
     public void CheckIfAppointmentExists() 
     {
-      Appointment TestAppointment = new Appointment("1");
-      Assert.IsNotNull(TestAppointment);
+      Appointment testAppointment = new Appointment("name");
+      Assert.AreEqual(typeof(Appointment), testAppointment.GetType());
     }
-    [TestMethod]
-    public void CheckIfObjectsAreTheSame() 
-    {
-      Appointment TestAppointment = new Appointment("1");
-      Assert.AreEqual(typeof(Appointment), TestAppointment.GetType());
-    }
-    [TestMethod]
-    public void PassAndReturnString()
-    {
-      // Arrange
-      string name = "test string";
-      Appointment TestAppointment = new Appointment(name);
 
-      // Act
-      TestAppointment.Name = name;
-      string result = TestAppointment.Name;
-
-      // Assert
-      Assert.AreEqual(name, result));
+    [TestMethod]
+    public void CheckAppointmentName() 
+    {
+      string name = "Test Name";
+      Appointment testAppointment = new Appointment(name);
+      Assert.AreEqual(testAppointment.Name, name);
     }
+
+    // [TestMethod]
+    // public void CheckAppointmentTime() 
+    // {
+    //   string time = "Test Time";
+    //   Appointment testAppointment = new Appointment(time);
+    //   Assert.AreEqual(testAppointment.Time, time);
+    // }
   }
 }
