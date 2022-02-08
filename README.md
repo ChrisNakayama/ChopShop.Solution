@@ -22,4 +22,5 @@ Class two = Appointments
  - Service 2 + cost (Buzz)
  - Service 3 + cost (Mustache groom)
  - Service 4 + cost (Hot towel shave)
- include methods for determining the price of an order.
+ Include methods for determining the price of an order.
+ - - Sale on one item, or 10% off any two services selected.
