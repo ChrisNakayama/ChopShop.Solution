@@ -10,6 +10,16 @@ The Program Will:
 • Project is in a polished, portfolio-quality state.
 • The prompt’s required functionality and baseline project requirements are in place by the deadline.
 
-Class one = 
+Class one = Appointment Book
+ - Create function
+ - Search function
+ - Delete function (stretch)
 
-Class two = 
+Class two = Appointments
+ - Name
+ - Time
+ - Service 1 + cost (Haircut)
+ - Service 2 + cost (Buzz)
+ - Service 3 + cost (Mustache groom)
+ - Service 4 + cost (Hot towel shave)
+ include methods for determining the price of an order.
