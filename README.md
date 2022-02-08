@@ -2,9 +2,14 @@ Chop Shop
 
 The Program Will:
 
-1 have two classes hair cut or shave
-will create an object that 
+• Code includes two custom classes and uses namespaces.
+• Console application works correctly.
+• Application correctly uses auto-implemented properties.
+• Classes should include methods for determining the price of an order.
+• Models are thoroughly tested.
+• Project is in a polished, portfolio-quality state.
+• The prompt’s required functionality and baseline project requirements are in place by the deadline.
 
-2 determine price classes
+Class one = 
 
-3 
+Class two = 
