@@ -11,7 +11,7 @@ namespace ChopShop.Tests
     [TestMethod]
       public void CreateSchedule()
       {
-        Schedule newSchedule = new Schedule();
+        Schedule newSchedule = new Schedule("Appointment");
         Assert.AreEqual(typeof(Schedule), newSchedule.GetType());
       }
   }

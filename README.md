@@ -10,20 +10,19 @@ The Program Will:
 • Project is in a polished, portfolio-quality state.
 • The prompt’s required functionality and baseline project requirements are in place by the deadline.
 
-Class one = Appointment Book
+Class one = Appointment Book = ```Schedule.cs```
  - Create function
  - Search function
  - Delete function (stretch)
 
-Class two = Appointments
+Class two = Appointments = ```Appointments.cs```
  - Name
  - Time
- - Service 1 + cost (Haircut)
- - Service 2 + cost (Buzz)
- - Service 3 + cost (Mustache groom)
- - Service 4 + cost (Hot towel shave)
+ - Service 1 + cost (Haircut) = ```Haircut.cs```
+ - Service 2 + cost (Mustache groom) = ```Mustache.cs```
  Include methods for determining the price of an order.
  - - Sale on one item, or 10% off any two services selected.
+ - Calculate Final Cost = FinalCost.cs 
 
  Assessment for 2.8.2022
 
