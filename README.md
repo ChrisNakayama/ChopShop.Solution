@@ -24,3 +24,9 @@ Class two = Appointments
  - Service 4 + cost (Hot towel shave)
  Include methods for determining the price of an order.
  - - Sale on one item, or 10% off any two services selected.
+
+ Assessment for 2.8.2022
+
+ Constructor that builds Appointments = (name, time, service)
+
+ 
