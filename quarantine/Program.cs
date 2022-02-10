@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using ChopShop.Models;
 
 //-----------------------from Car Dealership----------------------
-namespace ChopShop.Models {
+namespace ChopShop.Models 
+{
 
   public class Program
   {
@@ -11,7 +12,7 @@ namespace ChopShop.Models {
     {
       Appointment john = new Appointment("John Whitten", "2:00pm", "Haircut");
       
-      List<Appointment> Appointments = new List<Appointment>() {john };
+      List<Appointment> Appointments = new List<Appointment>() {john};
 
      
 
