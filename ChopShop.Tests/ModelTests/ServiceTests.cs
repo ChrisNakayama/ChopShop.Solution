@@ -11,7 +11,7 @@ namespace ChopShop.Tests
     [TestMethod]
       public void addService()
       {
-        Service newService = new Service(service, service);
+        Service newService = new Service(55, 65);
         Assert.AreEqual(typeof(Service), newService.GetType());
       }
   }
